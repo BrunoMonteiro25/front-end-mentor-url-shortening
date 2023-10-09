@@ -13,7 +13,6 @@ export const MobileMenuContainer = styled.div`
     flex-direction: column;
     align-items: center;
     padding: 40px 0px;
-    border: 1px solid white;
 
     li {
       margin-bottom: 30px;

@@ -15,4 +15,5 @@ li {
 body {
   font-family: 'Poppins', sans-serif;
   /* background-color: #ccc; */
+  overflow-x: hidden;
 }

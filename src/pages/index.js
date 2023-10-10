@@ -9,9 +9,7 @@ import Card from '../components/Card'
 const Container = styled.div`
   max-width: 1109px;
   margin: 0 auto;
-  /* overflow-x: hidden; */
   overflow: hidden;
-  /* position: relative; */
 `
 
 const Home = () => {
@@ -21,7 +19,6 @@ const Home = () => {
 
       <Container>
         <Banner />
-        {/* <Input /> */}
       </Container>
 
       <Card />

@@ -46,6 +46,7 @@ export const MobileMenuContainer = styled.div`
     background-color: #2bd1d1;
     font-weight: 700;
     font-size: 16px;
+    font-family: 'Poppins', sans-serif;
   }
 
   button:hover {

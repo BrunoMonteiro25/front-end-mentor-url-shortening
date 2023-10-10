@@ -82,6 +82,7 @@ export const Informations = styled.div`
     font-weight: 700;
     font-size: 20px;
     padding: 12px 0px;
+    font-family: 'Poppins', sans-serif;
   }
 
   button:hover {

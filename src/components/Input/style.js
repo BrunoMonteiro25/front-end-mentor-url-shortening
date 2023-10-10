@@ -64,6 +64,14 @@ export const Container = styled.div`
 
   @media (max-width: 755px) {
     top: 500px;
+
+    input {
+      margin-left: 24px;
+    }
+
+    button {
+      margin-right: 24px;
+    }
   }
 
   @media (max-width: 660px) {
@@ -81,7 +89,7 @@ export const Container = styled.div`
 
     button {
       max-width: 90%;
-      margin-left: 65px;
+      margin-left: 25px;
     }
   }
 

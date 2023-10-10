@@ -3,12 +3,15 @@ import Header from '../components/Header'
 import Banner from '../components/Banner'
 
 import styled from 'styled-components'
+import Card from '../components/Card'
+// import Input from '../components/Input'
 
 const Container = styled.div`
   max-width: 1109px;
   margin: 0 auto;
-  height: 1000px;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+  overflow: hidden;
+  /* position: relative; */
 `
 
 const Home = () => {
@@ -18,7 +21,10 @@ const Home = () => {
 
       <Container>
         <Banner />
+        {/* <Input /> */}
       </Container>
+
+      <Card />
     </>
   )
 }

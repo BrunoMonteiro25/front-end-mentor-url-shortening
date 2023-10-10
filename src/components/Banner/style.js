@@ -2,16 +2,54 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   margin-left: 10px;
+  margin-right: 10px;
   /* border: 1px solid black; */
-  height: 664px;
+  height: 600px;
   display: flex;
   position: relative;
 
+  @media (max-width: 1140px) {
+    height: 500px;
+  }
+
   @media (max-width: 660px) {
     margin-left: 30px;
+    margin-right: 30px;
     flex-direction: column-reverse;
     align-items: center;
-    /* position: static; */
+    height: 800px;
+  }
+
+  @media (max-width: 620px) {
+    height: 770px;
+  }
+
+  @media (max-width: 540px) {
+    height: 740px;
+  }
+
+  @media (max-width: 500px) {
+    height: 720px;
+  }
+
+  @media (max-width: 450px) {
+    height: 700px;
+  }
+
+  @media (max-width: 440px) {
+    height: 670px;
+  }
+
+  @media (max-width: 415px) {
+    height: 630px;
+  }
+
+  @media (max-width: 400px) {
+    height: 600px;
+  }
+
+  @media (max-width: 350px) {
+    height: 550px;
   }
 `
 
@@ -88,12 +126,10 @@ export const Informations = styled.div`
   }
 
   @media (max-width: 660px) {
-    padding-top: 150px !important;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-right: 30px;
 
     h1 {
       font-size: 50px;
@@ -105,17 +141,7 @@ export const Informations = styled.div`
     }
   }
 
-  @media (max-width: 615px) {
-    padding-top: 130px !important;
-  }
-
-  @media (max-width: 570px) {
-    padding-top: 100px !important;
-  }
-
   @media (max-width: 490px) {
-    padding-top: 70px !important;
-
     h1 {
       font-size: 40px;
     }
@@ -124,10 +150,6 @@ export const Informations = styled.div`
       width: 300px;
       margin-top: 10px;
     }
-  }
-
-  @media (max-width: 400px) {
-    padding-top: 0px !important;
   }
 `
 
@@ -169,31 +191,37 @@ export const Image = styled.div`
   }
 
   @media (max-width: 660px) {
-    top: -60px;
+    top: -20px;
     left: 0px;
 
     img {
-      width: 70%;
+      width: 60%;
     }
   }
 
   @media (max-width: 440px) {
-    margin-right: 20px;
+    img {
+      width: 55%;
+    }
   }
 
   @media (max-width: 415px) {
     margin-right: 40px;
+
+    img {
+      width: 50%;
+    }
   }
 
   @media (max-width: 400px) {
     img {
-      width: 65%;
+      width: 45%;
     }
   }
 
   @media (max-width: 350px) {
     img {
-      width: 60%;
+      width: 40%;
     }
   }
 `

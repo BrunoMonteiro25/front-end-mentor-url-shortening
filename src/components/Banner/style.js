@@ -152,7 +152,7 @@ export const Image = styled.div`
     }
   }
 
-  @media (max-width: 840px) {
+  @media (max-width: 755px) {
     right: -380px;
 
     img {

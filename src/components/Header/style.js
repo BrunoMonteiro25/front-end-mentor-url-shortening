@@ -5,6 +5,8 @@ export const Container = styled.div`
   height: 136px;
   display: flex;
   align-items: center;
+  position: relative;
+  z-index: 1000;
 
   .mobile {
     display: none;
@@ -54,7 +56,7 @@ export const Container = styled.div`
 
 export const MenuContainer = styled.header`
   /* border: 1px solid black; */
-  width: 1293px;
+  width: 1109px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;

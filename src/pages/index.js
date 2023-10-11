@@ -3,8 +3,7 @@ import Header from '../components/Header'
 import Banner from '../components/Banner'
 
 import styled from 'styled-components'
-import Card from '../components/Card'
-// import Input from '../components/Input'
+import Statistics from '../components/Statistics'
 
 const Container = styled.div`
   max-width: 1109px;
@@ -21,7 +20,7 @@ const Home = () => {
         <Banner />
       </Container>
 
-      <Card />
+      <Statistics />
     </>
   )
 }
